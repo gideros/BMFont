@@ -33,7 +33,7 @@ function BMFont:init(fontfile, imagefile)
 
 	-- read glyphs from font.txt and store them in chars table
 	self.chars = {}
-	file = io.open("font.txt", "rt")
+	file = io.open(fontfile, "rt")
 	for line in file:lines() do	
 		if startsWith(line, "char ") then
 			local char = lineToTable(line)
