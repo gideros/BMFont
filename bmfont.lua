@@ -27,9 +27,9 @@ function BMFont.new(...)
 	return self
 end
 
-function BMFont:init(fontfile, imagefile)
+function BMFont:init(fontfile, imagefile, filtering)
 	-- load font texture
-	self.texture = Texture.new(imagefile)
+	self.texture = Texture.new(imagefile, filtering)
 
 	-- read glyphs from font.txt and store them in chars table
 	self.chars = {}
