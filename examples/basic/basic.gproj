@@ -1,0 +1,11 @@
+<project>
+ <properties autorotation="0" fps="60" scaleMode="0" iosDevice="0" packageName="com.yourdomain.yourapp" logicalHeight="480" logicalWidth="320" retinaDisplay="0" assetsOnly="0" orientation="0" architecture="0">
+  <imageScales/>
+ </properties>
+ <file source="../../fonts/timesnewroman.png"/>
+ <file source="../../fonts/timesnewroman.fnt"/>
+ <file source="main.lua"/>
+ <file source="../../fonts/hobo.fnt"/>
+ <file source="../../fonts/hobo.png"/>
+ <file source="../../bmfont.lua"/>
+</project>
