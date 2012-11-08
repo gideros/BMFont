@@ -1,0 +1,13 @@
+<project>
+ <properties autorotation="3" fps="60" scaleMode="3" iosDevice="0" packageName="com.yourdomain.yourapp" logicalHeight="480" logicalWidth="320" retinaDisplay="3" assetsOnly="0" orientation="0" architecture="0">
+  <imageScales>
+   <scale suffix="@2x" scale="1.7"/>
+  </imageScales>
+ </properties>
+ <file source="../../fonts/hiragino@2x.png"/>
+ <file source="../../fonts/hiragino@2x.fnt"/>
+ <file source="../../fonts/hiragino.png"/>
+ <file source="../../fonts/hiragino.fnt"/>
+ <file source="../../bmfont.lua"/>
+ <file source="main.lua"/>
+</project>
